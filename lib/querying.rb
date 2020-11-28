@@ -13,15 +13,6 @@ def select_name_and_motto_of_char_with_longest_motto
   LIMIT 1;"
 end
 
-# "SELECT color, 
-# COUNT(color) 
-# AS count 
-# FROM bears 
-# GROUP BY color
-# ORDER BY count DESC
-# LIMIT 1"
-
-
 def select_value_and_count_of_most_prolific_species
   "SELECT species, COUNT(species) FROM characters
   GROUP BY species
